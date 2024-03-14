@@ -48,8 +48,8 @@ int main() {
   std::string_view ending{kEndings.at(name.length() % kEndings.size())};
 
   std::cout << "\nHere is your description:\n";
-  std::cout << name << ", " << adjective << ' ' << noun << " that " << ending
-            << '\n';
+  std::cout << name << ", the " << adjective << ' ' << noun << " that "
+            << ending << '\n';
 
   return 0;
 }
