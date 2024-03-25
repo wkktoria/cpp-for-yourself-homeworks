@@ -5,7 +5,7 @@
 
 int main() {
   std::cout << "Example program that trims strings.\n";
-  std::cout << "Please enter a string: ";
+  std::cout << "Please enter a string:";
 
   std::string string_to_trim{};
   std::getline(std::cin >> std::ws, string_to_trim);
