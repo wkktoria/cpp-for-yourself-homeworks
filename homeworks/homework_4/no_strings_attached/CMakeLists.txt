@@ -15,3 +15,9 @@ if(UNIX)
 endif()
 target_compile_features(no_strings_attached INTERFACE cxx_std_17)
 target_include_directories(no_strings_attached INTERFACE ${PROJECT_SOURCE_DIR})
+
+include(cmake/UpdateSubmodules.cmake)
+include(CTest)
+
+add_subdirectory(${PROJECT_NAME})
+add_subdirectory(external)
