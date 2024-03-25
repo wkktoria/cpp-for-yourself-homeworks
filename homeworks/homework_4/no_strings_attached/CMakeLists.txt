@@ -21,3 +21,4 @@ include(CTest)
 
 add_subdirectory(${PROJECT_NAME})
 add_subdirectory(external)
+add_subdirectory(examples)

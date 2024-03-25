@@ -1,0 +1,2 @@
+add_executable(split_strings split_strings.cpp)
+target_link_libraries(split_strings PRIVATE string_split no_strings_attached)
